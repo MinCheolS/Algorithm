@@ -1,11 +1,11 @@
 function solution(progresses, speeds) {
     const answer = [];
-    let days = 0;
+    let init = 0;
     
     for (let i = 0; i < progresses.length; i++) {
-        const needDays = Math.ceil((100 - progresses[i]) / speeds[i])
-        if(needDays > days) {
-            days = needDays
+        const days = Math.ceil((100 - progresses[i]) / speeds[i])
+        if(days > init) {
+            init = days
             answer.push(1);
         }
         else {
