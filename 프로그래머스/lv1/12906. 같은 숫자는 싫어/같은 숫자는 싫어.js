@@ -13,7 +13,7 @@ function solution(arr) {
     let answer = [];
     
     for(let num of arr) {
-        if(num !== answer[answer.length - 1] ) {
+        if(answer.length === 0 || num !== answer[answer.length - 1]) {
             answer.push(num)
         }
     }
