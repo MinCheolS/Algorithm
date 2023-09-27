@@ -1,0 +1,9 @@
+function solution(price) {
+    let sale5 = Math.ceil(price * 0.05)
+    let sale10 = Math.ceil(price * 0.1)
+    let sale20 = Math.ceil(price * 0.2)
+    
+    return  price < 100000 ? price :
+            price < 300000 ? price - sale5 :
+            price < 500000 ? price - sale10 : price - sale20
+}
