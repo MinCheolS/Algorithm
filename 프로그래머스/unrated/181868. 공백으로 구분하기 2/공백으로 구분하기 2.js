@@ -1,3 +1,3 @@
 function solution(my_string) {
-    return my_string.split(' ').filter((n) => n !== '')
+    return my_string.split(' ').filter((n) => n)
 }
