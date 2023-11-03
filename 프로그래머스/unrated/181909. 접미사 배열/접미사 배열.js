@@ -1,11 +1,9 @@
 function solution(my_string) {
-    let answer = [];
-    let arr = my_string.split('')
+    let arr = [];
     
     for(let i = 0; i < my_string.length; i++) {
-        answer.push(arr.join(''))
-        arr.shift()
+        arr.push(my_string.slice(i))
     }
     
-    return answer.sort()
+    return arr.sort()
 }
