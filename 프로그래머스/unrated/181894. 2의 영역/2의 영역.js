@@ -1,3 +1,6 @@
 function solution(arr) {
-    return (arr.indexOf(2) !== -1) && (arr.lastIndexOf(2) + 1 !== -1) ? arr.slice(arr.indexOf(2), arr.lastIndexOf(2) + 1) : [-1]
+    let startNum = arr.indexOf(2)
+    let lastNum = arr.lastIndexOf(2)
+    
+    return startNum === -1 ? [-1] : arr.slice(startNum, lastNum + 1)
 }
