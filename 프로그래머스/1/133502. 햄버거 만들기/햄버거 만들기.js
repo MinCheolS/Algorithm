@@ -1,6 +1,6 @@
 function solution(ingredient) {
     let answer = 0;
-    let stack = []
+    const stack = []
     
     for(let i of ingredient) {
         stack.push(i)
