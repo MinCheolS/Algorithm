@@ -2,7 +2,7 @@ function solution(a, b) {
     let result = 0
     
     for(let i = 0; i < a.length; i++) {
-        result = a[i]*b[i] + result
+        result = a[i] * b[i] + result
     }
     
     return result;
