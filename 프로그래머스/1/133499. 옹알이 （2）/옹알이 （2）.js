@@ -1,5 +1,5 @@
 function solution(babbling) {
-    let arr = ["aya", "ye", "woo", "ma"]
+    const arr = ["aya", "ye", "woo", "ma"]
     let answer = 0
     
     for(let i = 0; i < babbling.length; i++) {
