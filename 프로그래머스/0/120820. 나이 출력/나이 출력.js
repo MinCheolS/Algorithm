@@ -1,4 +1,3 @@
 function solution(age) {
-    const answer = 2023 - age
-    return answer;
+   return 2023 - age
 }
