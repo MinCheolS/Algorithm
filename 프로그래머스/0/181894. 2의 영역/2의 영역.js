@@ -1,6 +1,3 @@
 function solution(arr) {
-    const startNum = arr.indexOf(2)
-    const lastNum = arr.lastIndexOf(2)
-
-    return startNum === -1 ? [-1] : arr.slice(startNum, lastNum + 1)
+    return arr.indexOf(2) === -1 ? [-1] : arr.slice(arr.indexOf(2), arr.lastIndexOf(2) + 1)
 }
