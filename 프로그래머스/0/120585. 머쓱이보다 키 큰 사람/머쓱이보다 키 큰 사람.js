@@ -1,5 +1,3 @@
-function solution(array, height) {
-    let answer = array.filter((item) => item > height)
-    
-    return answer.length
+function solution(array, height) {    
+    return array.filter((item) => item > height).length
 }
