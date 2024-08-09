@@ -1,4 +1,3 @@
 function solution(n, k) {
-    let s = Math.floor(n / 10)
-    return 12000 * n + 2000 * k - 2000 * s
+    return (12000 * n) + (2000 * k) - Math.floor(n / 10) * 2000
 }
