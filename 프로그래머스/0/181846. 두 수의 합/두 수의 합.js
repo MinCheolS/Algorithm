@@ -1,5 +1,3 @@
 function solution(a, b) {
-    const NumA = BigInt(a)
-    const NumB = BigInt(b)
-    return String(NumA + NumB)
+    return String(BigInt(a) + BigInt(b))
 }
